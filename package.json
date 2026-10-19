@@ -1,0 +1,29 @@
+{
+  "name": "completion-receipt",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Declare completion only with current mandatory evidence.",
+  "main": "completion-receipt.js",
+  "exports": {
+    ".": "./completion-receipt.js"
+  },
+  "files": [
+    "completion-receipt.js",
+    "artifact-freshness-guard.js",
+    "evidence-ledger.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "completion-receipt"
+  ],
+  "license": "MIT"
+}
